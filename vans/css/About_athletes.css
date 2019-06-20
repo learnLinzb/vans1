@@ -1,0 +1,324 @@
+.my_header{  width: 100%;}
+.my_footer{  width: 100%;height: 500px;}
+.container-full{
+    background-color: #f1f2ed;
+}
+.about{
+    width: 1300px;
+    height: 69.6px;
+
+}
+.about_ul{
+    display: flex;
+    float: left;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 110px;
+
+}
+.about_li{
+    font-size: 16px;
+    color: #589bc6;
+    margin-right: 30px;
+}
+.about_li:hover{
+    color: #c8192e;
+    text-decoration:none
+}
+.about_li1{
+    font-size: 16px;
+    color: #666666;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+.title{
+    display: flex;
+    margin-left: 580px;
+    margin-top: 25px;
+    text-align: center;
+}
+.border-color{
+    border: 1px solid #000000;
+    width: 146px;
+    height: 51px;
+    margin-left: 10px;
+}
+.border-color1{
+    width: 146px;
+    height: 51px;
+    margin-left: 10px;
+}
+
+.title a{
+
+    line-height: 50px;
+    font-size: 16px;
+}
+.about_title{
+    font-weight: bolder;
+    color: #000000;
+
+}
+
+.about_title:hover{
+    color: #000000;
+    text-decoration:none
+}
+.title-all{
+    margin-top: 34px;
+    margin-bottom: 20px;
+
+}
+.title1{
+   margin-left: 380px;
+    margin-right: 210px;
+
+}
+.title2{
+    margin-right: 210px;
+
+}
+.img_all{
+    display: flex;
+    margin-left: 270px;
+    margin-bottom: 20px;
+}
+.img1{
+    margin-right: 10px;
+}
+
+.more_bottom{
+    margin-bottom: 20px;
+    margin-left: 320px;
+}
+.more{
+    width:144px;
+    height: 50px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.more{
+    cursor: pointer;
+}
+.more1{
+    width:144px;
+    height: 50px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.more1{
+    cursor: pointer;
+}
+.wenzi,.wenzi1,.wenzi2,.wenzi3,.wenzi4,.wenzi5,.wenzi6,.wenzi7,.wenzi8,.wenzi9,.wenzi10,.wenzi11,.wenzi12,.wenzi13,.wenzi14,.wenzi15,.wenzi16,.wenzi17,.wenzi18,.wenzi19,.wenzi20,.wenzi21,.wenzi22,.wenzi23,.wenzi24,.wenzi25,.wenzi26,.wenzi27,.wenzi28,.wenzi29,.wenzi30,.wenzi31,.wenzi32,.wenzi33,.wenzi34,.wenzi35,.wenzi36,.wenzi37,.wenzi38,.wenzi39{
+    position: absolute;
+    width: 250px;
+}
+.wenzi{
+    left:320px;
+    top: 520px;
+}
+
+.wenzi1{
+    left:595px;
+    top:520px;
+}
+
+.wenzi2{
+    left: 810px;
+    top:520px;
+}
+
+.wenzi3{
+    left: 1110px;
+    top:520px;
+}
+
+.wenzi4{
+    left:320px;
+    top:780px;
+}
+
+.wenzi5{
+    left:580px;
+    top:780px;
+}
+
+.wenzi6{
+    left:850px;
+    top:780px;
+}
+
+.wenzi7{
+    left:1070px;
+    top:780px;
+}
+
+.wenzi8{
+    left:345px;
+    top: 1040px;
+}
+
+.wenzi9{
+    left:590px;
+    top: 1040px;
+}
+
+.wenzi10{
+    left:830px;
+    top: 1040px;
+}
+
+.wenzi11{
+    left:1075px;
+    top: 1040px;
+}
+
+.wenzi12{
+    left:320px;
+    top:1300px;
+}
+
+.wenzi13{
+    left:575px;
+    top:1300px;
+}
+.wenzi14{
+    left:795px;
+    top:1300px;
+}
+
+.wenzi15{
+    left:1090px;
+    top:1300px;
+}
+
+.wenzi16{
+    left:345px;
+    top:1550px;
+}
+
+.wenzi17{
+    left:560px;
+    top:1550px;
+}
+
+.wenzi18{
+    left:780px;
+    top:1550px;
+}
+
+.wenzi19{
+    left:1085px;
+    top:1550px;
+}
+
+.wenzi20{
+    left: 340px;
+    top: 1810px;
+}
+
+.wenzi21{
+    left:580px;
+    top: 1810px;
+}
+
+.wenzi22{
+    left:830px;
+    top: 1810px;
+}
+
+.wenzi23{
+    left:1085px;
+    top: 1810px;
+}
+
+.wenzi24{
+    left:340px;
+    top:2065px;
+}
+
+.wenzi25{
+    left:555px;
+    top:2065px;
+}
+
+.wenzi26{
+    left:820px;
+    top:2065px;
+}
+
+.wenzi27{
+    left:1085px;
+    top:2065px;
+}
+
+.wenzi28{
+    left:320px;
+    top:2330px;
+}
+
+.wenzi29{
+    left:565px;
+    top:2330px;
+}
+
+.wenzi30{
+    left:830px;
+    top:2330px;
+}
+
+.wenzi31{
+    left:1060px;
+    top:2330px;
+}
+
+.wenzi32{
+    left:320px;
+    top:2580px;
+}
+
+.wenzi33{
+    left:565px;
+    top:2580px;
+}
+
+.wenzi34{
+    left:780px;
+    top:2580px;
+}
+
+.wenzi35{
+    left:1045px;
+    top:2580px;
+}
+
+.wenzi36{
+    left:320px;
+    top:2835px;
+}
+
+.wenzi37{
+    left:565px;
+    top:2835px;
+}
+
+.wenzi38{
+    left:815px;
+    top:2835px;
+}
+
+.wenzi39{
+    left:1070px;
+    top:2835px;
+}
+.name,.name1,.name2,.name3,.name4,.name5,.name6,.name7,.name8,.name9,.name10,.name11,.name12,.name13,.name14,.name15,.name16,.name17,.name18,.name19,.name20,.name21,.name22,.name23,.name24,.name25,.name26,.name27,.name28,.name29,.name30,.name31,.name32,.name33,.name34,.name35,.name36,.name37,.name38,.name39 {
+    color: white;
+    font-weight: bold;
+}
+
