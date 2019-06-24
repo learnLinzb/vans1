@@ -1,0 +1,18 @@
+.maxwRight{float:left;width:950px;}
+.maxwLeft{float:right;width:250px;}
+.goods-shopmax-rank .item{width:200px;}
+.goods-shopmax-rank .item .i {width:200px!important;}
+.goods-shopmax-rank .active .i {width:118px!important;}
+.goods-shopmax-rank .item.active {height:115px;}
+.reverse-180{transition: all 0.5s linear;}
+.reverse-180:hover{transform:rotate(-180deg);
+-ms-transform:rotate(-180deg); /* Internet Explorer */
+-moz-transform:rotate(-180deg); /* Firefox */
+-webkit-transform:rotate(-180deg); /* Safari 和 Chrome */
+-o-transform:rotate(-180deg); /* Opera */
+transition: transform 0.5s; 
+-moz-transition: -moz-transform 0.5s; 
+-moz-transition: -moz-transform 0.5s; 
+-o-transition: -o-transform 0.5s; 
+-ms-transition: -ms-transform 0.5s; 
+}

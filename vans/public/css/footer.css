@@ -1,0 +1,143 @@
+.footer_bg{
+    width: 100%;
+    height: 471px;
+    background-color: black;}
+.footer_bg:before{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.footer{
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.footer_top{
+    width:481px;
+    height: 256px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-right: 1px solid #919191;
+}
+.top_font{
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+
+}
+.font_color{
+    font-weight: bold;
+    color: white;
+
+}
+.mr_ul{
+    display: flex;
+    margin-right: 50px;
+    margin-top:40px;
+}
+.font_color1{
+    color: #589BC6;
+    font-size: 13px;
+
+}
+.font_color1:hover{
+    color: #C9192E;
+    text-decoration:none
+}
+.ml_ul{
+    margin-left: 108px;
+}
+.footer_top1{
+    width:183px;
+    height: 178px;
+    float: left;
+    margin-left: 40px;
+
+}
+.top_font1{
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 40px 2px;
+
+}
+.font_color2{
+    color: white;
+    font-weight: bold;
+    margin-top: 26px;
+}
+.font_li{
+    font-size: 13px;
+    color:  #919191;
+}
+.footer_right{
+    width: 330px;
+    height: 256px;
+    float: right;
+    border-left: 1px solid #919191;
+    margin-top: 40px;
+}
+.top_font2{
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+   margin-left: 77px;
+}
+.img_top{
+
+    margin-top: 40px;
+    margin-left: 23px;
+}
+.footer_bottom{
+    width: 1440px;
+    min-height: 91px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.img_width{
+    width: 222px;
+    height: 91px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.bottom_color{
+    color: #919191;
+    float: left;
+}
+.bottom_color:hover{
+    color: #919191;
+    text-decoration:none
+}
+.bottom_color1{
+    color: #589BC6;
+    float: left;
+}
+.bottom_color1:hover{
+
+    text-decoration:none
+}
+
+.menu{
+    color: black;
+    padding: 0 10px;
+    height: 45px;
+    line-height: 41px;
+}
+.menu:hover{
+    text-decoration:none ;
+    color : black;
+}
+.top_menu{
+    overflow-y: scroll;
+    width: 200px;
+    height: 400px;
+
+}

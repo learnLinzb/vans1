@@ -1,0 +1,11 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  try{
+  window.setTimeout(function() {
+    _satellite.track('push - content')
+},300);
+  
+}
+catch(e){}
+
+//page ready - pdp
+});

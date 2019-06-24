@@ -1,0 +1,143 @@
+.my_header{  width: 100%;}
+.my_footer{  width: 100%;height: 500px;
+    margin-top: 10px;
+}
+.container-full{
+    background-color: #F1F2ED;
+    display: table;
+    clear: both;
+    content: " ";
+    margin-left: 20px;
+}
+.about{
+    width: 1300px;
+    height: 69.6px;
+
+}
+.about_ul{
+    display: flex;
+    float: left;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 110px;
+
+}
+.about_li{
+    font-size: 16px;
+    color: #589bc6;
+    margin-right: 30px;
+}
+.about_li:hover{
+    color: #c8192e;
+    text-decoration:none
+}
+.about_li1{
+    font-size: 16px;
+    color: #666666;
+}
+.news{
+    display: flex;
+    float: left;
+    margin-left: 110px;
+    margin-bottom: 20px;
+
+}
+.news1{
+    width: 239px;
+    margin-right: 35px;
+}
+.news1 img{
+    margin-bottom: 20px;
+}
+.span1{
+    width: 100%;
+    font-weight: bold;
+    color: black;
+}
+.news1 a{
+    text-decoration: none;
+}
+.news1 a:hover{
+    color: black;
+}
+.news1 img{
+    width: 239.2px;height: 213.09px;
+}
+
+.span2{
+    margin-top: 20px;
+}
+.date{
+    margin-top: 45px;
+}
+
+.date a{
+    text-decoration: none;
+}
+.date1{
+    margin-top: 21px;
+}
+.date2{
+    margin-top: 70px;
+}
+.date3{
+    margin-top: 25px;
+}
+.date4{
+    margin-top: 23px;
+}
+.date5{
+    margin-top: 21px;
+}
+.date6{
+    margin-top: 8px;
+}
+.date7{
+    margin-top: 8px;
+}
+.span3{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.span4{
+    margin-top: 10px;
+}
+.span5{
+    font-size: 14px;
+}
+.fenye{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+.fy{
+    padding-right: 15px;
+    font-family: Franklin-book;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.input1{
+    width: 58px;
+    height: 37px;
+    margin-top: -7px;
+    padding-left: 20px; ;
+}
+.fenye a img{
+    margin-top: -7px ;
+}
+.gcs-pagination li{
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.prev{
+    color: #666666;
+    font-weight:bolder;
+}
+.next{
+    color: #666666;
+    font-weight:bolder;
+}
+

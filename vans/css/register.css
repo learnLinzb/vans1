@@ -1,5 +1,3 @@
-.my_header{  width: 100%;}
-.my_footer{  width: 100%;height: 500px;}
 .reg{
     width: 602px;
     height: 569px;
@@ -22,7 +20,7 @@
     margin-left: 60px;
     margin-bottom: 20px;
     padding-left: 20px;
-    color: #000000;
+    color: #ddd;
 
 }
 .input_width1{
@@ -31,7 +29,7 @@
     margin-left: 60px;
     margin-bottom: 20px;
     padding-left: 20px;
-    color: #000000;
+    color: #ddd;
 
 }
 .span_font{
@@ -43,11 +41,7 @@
     background-color: black;
     margin-top: 15px;
     margin-left: 10px;
-    border: none;
 
-}
-.span_font:hover{
-    cursor: pointer;
 }
 .button_width{
     width: 481px;
@@ -56,18 +50,4 @@
     background-color:#c9192e ;
     border: none;
     margin-left:60px;
-}
-.button_width{
-    cursor: pointer;
-}
-.check{
-    margin-left: 60px;
-    color: #d2d2d2;
-    font-size: 16px;
-    font-weight: bold;
-}
-.check a{
-    color: #d2d2d2;
-    font-size: 16px;
-    font-weight: bold;
 }

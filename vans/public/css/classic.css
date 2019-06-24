@@ -1,0 +1,165 @@
+.my_header{  width: 100%;}
+.my_footer{  width: 100%;height: 500px;
+    margin-top: 10px;
+}
+.dt,.dt1,.dt2,.dt3,.dt4,.dt5,.dt6,.dt7,.dt8{
+    margin-left: 40px;
+
+}
+.dt_1{
+    width: 427px;
+    height: 538px;
+    position: absolute;
+    margin-left: 49.7%;
+    margin-top: -30%;
+}
+.img1{
+    width: 662px;
+    height: 438px;
+}
+.dt_2{
+    position: absolute;
+}
+.img2{
+    width: 300px;
+    height: 538px;
+    margin-left:17.7%;
+    margin-top: -13.5%;
+}
+.dt_3{
+    position: absolute;
+}
+.img3{
+    width: 310px;
+    height: 448px;
+    margin-left:350.7%;
+    margin-top: -152%;
+}
+.dt_4{
+    position: absolute;
+}
+.img4{
+    width: 575px;
+    height: 398px;
+    margin-left:113.8%;
+    margin-top: 6%;
+}
+.dt_5{
+    position: absolute;
+}
+.img5{
+    width: 482px;
+    height: 598px;
+    margin-left:83.3%;
+    margin-top: -144%;
+}
+.dt_6{
+    position: absolute;
+}
+.img6{
+    width: 507px;
+    height: 398px;
+    margin-left:2.7%;
+    margin-top: -110%;
+}
+.dt_7{
+    position: absolute;
+}
+.img7{
+    width: 325px;
+    height: 475px;
+    margin-left:333.7%;
+    margin-top: -82.5%;
+}
+.dt_8{
+    position: absolute;
+}
+.img8{
+    width: 537px;
+    height: 695px;
+    margin-top: -41.5%;
+}
+.dt_9{
+    position: absolute;
+}
+.img9{
+    width: 585px;
+    height: 405px;
+    margin-left:10.7%;
+    margin-top: 7.5%;
+}
+.dt_10{
+    position: absolute;
+}
+.img10{
+    width: 319px;
+    height: 465px;
+    margin-left: 219.6%;
+    margin-top: 44.5%;
+}
+.dt_11{
+    position: absolute;
+}
+.img11{
+    width: 325px;
+    height: 465px;
+    margin-left: 335%;
+    margin-top: 15.5%;
+}
+.dt_12{
+    position: absolute;
+}
+.img12{
+    width: 630px;
+    height: 465px;
+    margin-left: 95%;
+    margin-top: 105.5%;
+}
+.dt_13{
+    position: absolute;
+}
+.img13{
+    width: 330px;
+    height: 465px;
+    margin-left: 195%;
+    margin-top: 10.5%;
+}
+.table{
+    width: 580px;
+    height: 118px;
+    position: relative;
+    border: 3px solid #000000;
+    margin-top: -130px;
+    margin-left: 450px;
+}
+.table-top {
+    width: 575px;
+    height: 38px;
+    background-color: #000000;
+}
+.table-top{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.table-footer{
+    display: table;
+    clear: both;
+    content: "";
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.table-footer a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.table-footer a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}

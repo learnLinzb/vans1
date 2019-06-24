@@ -1,0 +1,838 @@
+@charset "UTF-8";
+.maxwIn.oh{
+    background-color:white;
+    width: 100%;
+    max-width:100%;
+}
+.max-article-page1 .article-c{
+    width: 100%;
+}
+.pagination-div > span{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    display:inline-block;
+    margin:10px;
+    background:#828282;
+}
+.pagination-div > .swiper-pagination-bullet-active{
+    background:#E82F2D;
+}
+.swiper-slide-active{
+    position: relative;
+    z-index:2
+}
+
+
+
+
+.pagination-div1 > span{
+    width:21px;
+    height:21px;
+    border-radius:50%;
+    display:inline-block;
+    margin:6px;
+    background: #ffffff;
+}
+.pagination-div1 > .swiper-pagination-bullet-active{
+    background:#c7c7c7;
+}
+
+
+
+
+.pagination-div2 > span{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    display:inline-block;
+    margin:6px;
+    background: #ffffff;
+}
+.pagination-div2 > .swiper-pagination-bullet-active{
+    background:#666666;
+}
+ body{
+  overflow:auto !important;
+  min-width:1440px !important;
+}
+
+		#gx_bmx_top_block {
+			display: block;
+			position: absolute;
+            top: 0;
+            left: 0;
+			width: 750px;
+			height: 790px;
+			overflow: hidden;
+		}
+        #gx_bmx_top_block img{
+            display:block;
+            width: 100%;
+            height: auto;
+        }
+		#gx_waffleHand{
+			position: absolute;
+			left:80px;
+			top:70px;
+			width: auto;
+			-webkit-animation-name: waffleHand; /* Safari 4.0 - 8.0 */
+			-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+			animation-name: waffleHand;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes waffleHand {
+		  0%   {left:80px; top:70px;}
+		  25%  {left:70px; top:90px;}
+		  50%  {left:80px; top:90px;}
+		  75%  {left:70px; top:80px;}
+		  100% {left:80px; top:70px;}
+		}
+
+		/* Standard syntax */
+        @-webkit-keyframes waffleHand {
+          0%   {left:80px; top:70px;}
+		  25%  {left:70px; top:90px;}
+		  50%  {left:80px; top:90px;}
+		  75%  {left:70px; top:80px;}
+		  100% {left:80px; top:70px;}
+		}
+#videoCta.gx-videoCta:before {display:none}
+
+
+		#bmx_top_block {
+			display: block;
+			position: relative;
+			width: 750px;
+			height: 790px;
+			overflow: hidden;
+			background-position: top, center;
+		}
+			#bmx_top_block img{
+				display:block;
+				width: 90%;
+				height: auto;
+			}
+
+
+		#waffleHandPc{
+			position: absolute;
+			left:65px;
+			top:175px;
+			width: auto;
+			-webkit-animation-name: waffleHandPc; /* Safari 4.0 - 8.0 */
+			-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+			animation-name: waffleHandPc;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes waffleHandPc {
+		  0%   {left:65px; top:175px;}
+		  25%  {left:55px; top:195px;}
+		  50%  {left:65px; top:195px;}
+		  75%  {left:55px; top:185px;}
+		  100% {left:65px; top:175px;}
+		}
+
+		/* Standard syntax */
+		@keyframes waffleHandPc {
+            0%   {left:65px; top:175px;}
+		  25%  {left:55px; top:195px;}
+		  50%  {left:65px; top:195px;}
+		  75%  {left:55px; top:185px;}
+		  100% {left:65px; top:175px;}
+		}
+        .baenerBg::before{
+            content:"";
+            display: block;
+            width: 1280px;
+            height: 50px;
+            position: absolute;
+            top: -20px;
+            right: 15px;
+            background-image: url(http://img1.vans.com.cn/public/images/67/9b/2f/e644dc39125db8f9c9a8d8bf090fe56cfa0577d7.png);
+            background-repeat: no-repeat;
+            z-index: 999;
+        }
+        .baenerBg::after{
+            content:"";
+            display: block;
+            width: 1280px;
+            height: 50px;
+            position: absolute;
+            bottom: 0;
+            left: -27px;
+            background-image: url(http://img1.vans.com.cn/public/images/b2/6c/93/b4bcfa7f2b20ea394d48f792245a2a1780d9d692.png);
+            background-repeat: no-repeat;
+            z-index: 999;
+        }
+
+
+
+ /* VANS X RALPH STARDMAN 艺术联名系列 */
+  .swiper-containerzoo1 {
+    width: 100%;
+    height: 450px;
+  }
+
+  .swiper-containerzoo2 {
+    width: 100%;
+    height: 800px;
+  }
+
+
+  .zooInfoModel {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, .8);
+    z-index: 9;
+  }
+
+  .zooInfoCon {
+    width: 80%;
+    height: 90%;
+    /* background:#000; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 99;
+    overflow: hidden;
+  }
+
+  .swiper-containerzoo1 .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #fff !important;
+  }
+
+  .swiper-containerzoo1 .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 105px;
+  }
+
+  .swiper-containerzoo1 .swiper-pagination-bullet-active {
+    background: #ecedef !important;
+  }
+
+  .swiper-containerzoo2 .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #fff !important;
+  }
+
+  .swiper-containerzoo2 .swiper-pagination-bullet-active {
+    background: #ecedef !important;
+  }
+
+  .swiper-close {
+    z-index: 99999 !important;
+  }
+
+  #action_translateY1 {
+            width: 100%;
+            text-align: center;
+            padding-top: 193px;
+            -webkit-animation-name: action_translateY1;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: action_translateY1;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes action_translateY1 {
+            0% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+        #action_translateY1 img{
+            width: 50%;
+            margin-right: 24px;
+            margin-top: 20px;
+        }
+        #action_translateY2 {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 76px;
+            -webkit-animation-name: action_translateY2;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: action_translateY2;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+        }
+        #action_translateY2 img{
+            margin-left: 300px;
+            margin-top: -100px;
+        }
+        @keyframes action_translateY2 {
+            0% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+        #action_translateY3 {
+            width: 100%;
+            text-align: center;
+            -webkit-animation-name: action_translateY3;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: action_translateY3;
+            animation-duration: 2.5s;
+            animation-timing-function: ease-in-out;
+            margin-bottom: 65px;
+        }
+
+        @keyframes action_translateY3 {
+            0% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+        #action_translateY4{
+            width: 100%;
+            text-align: center;
+            -webkit-animation-name: action_translateY4;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: action_translateY4;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes action_translateY4{
+            0% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+        .action_translateY4 {
+            width: 50%;
+            text-align: center;
+            margin: 50px auto;
+        }
+        
+        .action_translateY4 img {
+            animation: myfirst 2s infinite;
+        }
+        
+        @keyframes myfirst {
+            0% {
+                transform: translate(0px, 0px);
+            }
+            50% {
+                transform: translate(0px, -15px);
+            }
+            100% {
+                transform: translate(0px, 0px);
+            }
+        }
+
+  .footerSaleShop div #saleShopImg2:hover #saleShopImg1 {
+    display: block;
+  }
+
+  .footerSaleShop div #saleShopImg1:hover #saleShopImg2 {
+    display: block;
+  }
+
+  .tradeHover .tradeHoverImg {
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+  }
+
+  .tradeHover .tradeHoverImg:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+
+  }
+
+  .downLoad {
+    display: block;
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    /* background: yellow; */
+    left: 0;
+    z-index: 999;
+    bottom: -11px;
+    cursor: pointer;
+  }
+
+
+  .swiper-img .swiper-slide {
+    text-align: center !important;
+    padding-left: 25px !important;
+    box-sizing: border-box !important;
+    padding-top: 70px !important;
+  }
+
+  .zooInfoConimg1 {
+    height: 50% !important;
+    width: auto !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    padding-top: 60px !important; 
+  }
+
+  .zooInfoConimg2 {
+    height: 45% !important;
+    width: auto !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    transform: translateX(-50px) !important;
+    padding-top: 60px !important; 
+  }
+
+  @media screen and (max-width:960px) {
+    .swiper-img .swiper-slide {
+      text-align: center !important;
+      padding-left: 0 !important;
+      box-sizing: border-box !important;
+    }
+
+    .zooInfoConimg1 {
+      height: auto !important;
+      width: 65% !important;
+      display: inline-block !important;
+      padding-top: 60px !important; 
+    }
+
+    .zooInfoConimg2 {
+      height: auto !important;
+      width: 50% !important;
+      display: inline-block !important;
+      vertical-align: middle !important;
+      transform: translateY(-50px) !important;
+      padding-top: 60px !important; 
+    }
+
+  }
+
+
+   /* THERMOCHROME | 镀铬色变 */
+        .changeAll {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            position: relative;
+        }
+
+        #rmo_wrap {
+            width: 1440px;
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 1440px;
+            /* background: #666; */
+        }
+
+        /* Intro */
+        #rmo_intro_comp {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 600px;
+            max-height: 600px;
+            overflow: hidden;
+        }
+
+        #rmo_intro_comp .rmo_tit_01,
+        #rmo_intro_comp .rmo_tit_02 {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+
+        }
+
+        #rmo_intro_comp .rmo_size_help {
+            display: block;
+            position: relative;
+            outline: none;
+            border: none;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #rmo_intro_comp .rmo_com,
+        #rmo_intro_comp .rmo_com li {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            padding: 0;
+            margin: 0 auto;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        #rmo_intro_comp .rmo_com {
+            display: block;
+            background-image: url('demo_imgs/dm_01.png');
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 100%;
+        }
+
+        #rmo_intro_comp .rmo_com li {
+            display: none;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 100%;
+        }
+
+        #rmo_intro_comp .rmo_com li.c_0 {
+            background-image: url('http://img1.vans.com.cn/public/images/96/9d/f0/1950f24e887b55bcf861aa2e79fe8494c6b309c4.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_1 {
+            background-image: url('http://img1.vans.com.cn/public/images/51/2f/42/6035382fb69fabc96ba0e6281169d5263f8a6e17.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_2 {
+            background-image: url('http://img1.vans.com.cn/public/images/a2/ff/6f/2a44f69ca3be79194acdb710dbe895470b19f6a4.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_3 {
+            background-image: url('http://img1.vans.com.cn/public/images/3f/ee/a8/6fb1353489786c60944988b37229199234449e34.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_4 {
+            background-image: url('http://img1.vans.com.cn/public/images/e5/36/23/7722cc9dbb95fbd819737740fa14f20fb3ddebe1.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_5 {
+            background-image: url('http://img1.vans.com.cn/public/images/e7/58/f5/6c713a8b652df9b2dafb21d5c7e19ac908009cfd.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_6 {
+            background-image: url('http://img1.vans.com.cn/public/images/a4/6a/e2/d1a590614ebcaa88d18691b4c974275b7a9f6e87.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_7 {
+            background-image: url('http://img1.vans.com.cn/public/images/93/cb/6e/adc2bc22e816176777b6fb486c75a605b1da17db.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_8 {
+            background-image: url('http://img1.vans.com.cn/public/images/61/82/2d/69d40e9b5ac427e8b1effa2f75db1a3e459f84f9.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_9 {
+            background-image: url('http://img1.vans.com.cn/public/images/cc/e8/7f/e46d594602c00ecf67a58c7f246872b050eaff76.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_10 {
+            background-image: url('http://img1.vans.com.cn/public/images/c4/da/0d/891cb39fe05c354f1056eef079feff38a8ae4033.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_11 {
+            background-image: url('http://img1.vans.com.cn/public/images/41/a9/6e/f6c62c61d9e8e304bc4556948c17bd70179db75d.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_12 {
+            background-image: url('http://img1.vans.com.cn/public/images/b2/84/6d/08a8179af9bcedea3e1531644430274bbc3da63d.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_13 {
+            background-image: url('http://img1.vans.com.cn/public/images/17/d6/d5/a1a8e4c2c26ac069797ecf7264f130b3ce577dfd.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_14 {
+            background-image: url('http://img1.vans.com.cn/public/images/f7/e1/89/0f81af8d2c0e6482a90c9a4e5ced2a0851502ff2.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_15 {
+            background-image: url('http://img1.vans.com.cn/public/images/b4/af/1c/9a0b7e749961baf5f38512e4b7ac75db81c9f488.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_16 {
+            background-image: url('http://img1.vans.com.cn/public/images/4c/93/6e/459b1b99af12ef51e49b5f9f8cff94494d3849b7.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_17 {
+            background-image: url('http://img1.vans.com.cn/public/images/a5/ae/84/0380492e6c1686f64de9a17f1593741eb715ebc9.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_18 {
+            background-image: url('http://img1.vans.com.cn/public/images/8b/ab/2a/1beeb929da857144239d2645a1222e639da4103e.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_19 {
+            background-image: url('http://img1.vans.com.cn/public/images/b5/ab/98/a7bd401f1d12665e38616e366f793f09bb0e1782.jpg');
+        }
+
+        #rmo_intro_comp .rmo_com li.c_20 {
+            background-image: url('http://img1.vans.com.cn/public/images/f5/4c/cd/2fe58f82d309fe3d19bb0e0dbf68b78f9501b7dc.jpg');
+        }
+
+        /* 淡入动画 */
+        @keyframes changeConAnimate {
+            0% {
+                transform: scale(0.2);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        .changeConAnimate {
+            -webkit-animation-name: changeConAnimate;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 2s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: changeConAnimate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+        }
+        .changeCon {
+            width: 979px;
+            height: 636px;
+            margin: 0 auto;
+            clear: both;
+        }
+
+        .changeCon .changeConList img {
+            width: 70%;
+            position: absolute;
+            bottom: -139px;
+            right: -85px;
+        }
+        .changeCon .changeConList img:nth-of-type(2) {
+            display: none;
+        }
+        /* 滑动 */
+        .changeConBox {
+			width: 680px;
+			height: 480px;
+			position: relative;
+            top:0;
+            left: 0;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+		.changeConCell {
+			height: 100%;
+		}
+
+		.changeConImg {
+			width: 100%;
+			height: 100%;
+		}
+
+		.changeConSlider {
+			height: 100%;
+			width: 84px;
+            background-image: url(http://img1.vans.com.cn/public/images/b1/fb/62/b6f72bb50913dfaee5c534b17de006264279b3ce.png);
+			position: absolute;
+			right: -43px;
+			top: 0;
+		}
+
+		.changeConLeft .changeConImg {
+			z-index: 99;
+		}
+        /* 滑动 2*/
+        .changeConBox2 {
+			width: 680px;
+			height: 480px;
+			position: relative;
+            top:0;
+            left: 0;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+		.changeConCell2{
+			height: 100%;
+		}
+
+		.changeConImg2 {
+			width: 100%;
+			height: 100%;
+		}
+
+		.changeConSlider2 {
+			height: 100%;
+			width: 84px;
+            background-image: url(http://img1.vans.com.cn/public/images/b1/fb/62/b6f72bb50913dfaee5c534b17de006264279b3ce.png);
+			position: absolute;
+			right: -43px;
+			top: 0;
+		}
+
+		.changeConLeft2 .changeConImg2 {
+			z-index: 99;
+		}
+          /* 滑动 3*/
+          .changeConBox3 {
+			width: 680px;
+			height: 480px;
+			position: relative;
+            top:0;
+            left: 0;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+		.changeConCell3{
+			height: 100%;
+		}
+
+		.changeConImg3 {
+			width: 100%;
+			height: 100%;
+		}
+
+		.changeConSlider3 {
+			height: 100%;
+			width: 84px;
+            background-image: url(http://img1.vans.com.cn/public/images/b1/fb/62/b6f72bb50913dfaee5c534b17de006264279b3ce.png);
+			position: absolute;
+			right: -43px;
+			top: 0;
+		}
+
+		.changeConLeft3 .changeConImg3 {
+			z-index: 99;
+		}       
+         /* 滑动 4*/
+          .changeConBox4 {
+			width: 680px;
+			height: 480px;
+			position: relative;
+            top:0;
+            left: 0;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+		.changeConCell4{
+			height: 100%;
+		}
+
+		.changeConImg4{
+			width: 100%;
+			height: 100%;
+		}
+
+		.changeConSlider4{
+			height: 100%;
+			width: 84px;
+            background-image: url(http://img1.vans.com.cn/public/images/b1/fb/62/b6f72bb50913dfaee5c534b17de006264279b3ce.png);
+			position: absolute;
+			right: -43px;
+			top: 0;
+		}
+
+		.changeConLeft4 .changeConImg4{
+			z-index: 99;
+		}
+
+/*VANS COMFYCUSH 舒舒服服系列*/
+        #arrowsCc {
+            width: 100%;
+            text-align: center;
+            -webkit-animation-name: arrowsCc;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: arrowsCc;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes arrowsCc {
+            0% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+        #arrowsCc {
+            width: 50%;
+            text-align: center;
+            margin: 50px auto;
+        }
+
+        #arrowsCc img {
+            animation: myfirst 2s infinite;
+        }
+
+        @keyframes myfirst {
+            0% {
+                transform: translate(0px, 0px);
+            }
+
+            50% {
+                transform: translate(0px, -15px);
+            }
+
+            100% {
+                transform: translate(0px, 0px);
+            }
+        }

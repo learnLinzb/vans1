@@ -1,0 +1,26 @@
+.forget_pwd{
+  width: 602px;height:575px;
+  background-color: #fff;
+  margin: 0 auto;
+  border:1px solid #ddd;
+  margin-bottom: 20px;
+  margin-top: 70px
+}
+.forget_pwd>h2{
+  color: #666;
+  margin-top: 46px;
+  margin-left:60px;
+}
+.forget_pwd>h4{
+  margin-top:42px; 
+  margin-left:60px;
+  color: #666;
+}
+.forget_pwd>input{
+  margin-top:42px;
+  margin-left: 60px;
+}
+.forget_pwd>span{
+  color: #666;
+  font: bolder;
+}

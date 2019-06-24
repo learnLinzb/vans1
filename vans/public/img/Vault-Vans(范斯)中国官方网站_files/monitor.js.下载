@@ -1,0 +1,48 @@
+var LIVE800_TRACK_ID="OTFhOTBmZWFiN2M5YzE0NDNmNTA5NmI3N2RmYzE3NjVuUDV5WU8zRjU2NjQ3NDA4OTk1NTFiX2I0MDcwMDAwOGFfYTIzMjM3MDc0NU5yRzJlVHhFMQ%3D%3D";
+var live800_SpeCode="";
+var live800_SpeCodeLeaveUrl="";
+var live800_companyID="80000704";
+var live800_protocol="https";
+var live800_isMobile="0";
+var enterurl="https://vans.com.cn/vault?utm_source=pc_homepage&utm_medium=pc_VAULT%20BY%20VANS&utm_campaign=ownsite";
+var isNewChatBoxForMonitor=false;
+var live800_baseUrl="care60.live800.com";
+var live800_baseHtmlUrl="care60.live800.com";
+var live800_baseWebApp="/live800";
+var live800_baseChatHtmlDir="/chatClient";
+var live800_defined_params="k=1";
+var live800_leav=false;
+var live800_LanguageNum="0";
+var toolbar_live800_configID="382";
+var isFunctionCode=true;
+var live800_page_key="iyYWWM6Ie733pGZ059AL";
+var live800_status=1;
+var live800_Language="zh";
+var monitor_live800_auto_chatting="0";
+var monitorFunction_isOpen=true;
+var live800_isChaterExist="0";
+var monitor_live800_configContent="live800_invite_auto=0&live800_invite_delay=10&live800_invite_display=300&live800_invite_top=0&auto_initiated_chat=0&auto_connect=0&delay_initiated_time=10&custom_configId=386&live800_invite_style=1&live800_invite_title=%E9%82%80%E8%AF%B7";
+var live800_custom_config="interface_type=0&background=&buttonBackground=&link=&html_width=439&html_height=159&swfUrl=&width=439&height=159";
+var live800_inviteContent="%E6%9C%89%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E6%82%A8%E7%9A%84%E5%90%97%3F";
+var live800_visitorAddr="%E6%AC%A2%E8%BF%8E%E6%82%A8%EF%BC%8C%E6%9D%A5%E8%87%AA%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E7%9A%84%E6%9C%8B%E5%8F%8B";
+var invite_accept="%E6%8E%A5%E5%8F%97";
+var invite_cancel="%E5%BF%BD%E7%95%A5";
+var live800_chat_content="live800_chat_style=inner-blue&company_logo=&company_logoLink=&chat_position=right&live800_styleId=2&live800_chattip=%E7%82%B9%E5%87%BB%E6%88%91%EF%BC%8C%E5%9B%9E%E7%AD%94%E6%82%A8%E7%9A%84%E9%97%AE%E9%A2%98&window_width=370&window_height=600&customImageUrl=";
+var live800_version= "v6.0.1";
+var live800_assetsPath= "https://care60.live800.com/live800/chatClient/refactor/v6.0.1/dist/";
+var assetsConfig={js:{zepto:live800_assetsPath+"js/zepto-4cfed95346.js",Blob:live800_assetsPath+"js/Blob-c548e35cc8.js",checkForm:live800_assetsPath+"js/checkForm-189a156b42.js",swfobject:live800_assetsPath+"js/swfobject-1d05b294ef.js",clamp:live800_assetsPath+"js/clamp-0b487ed4d9.js",qrCode:live800_assetsPath+"js/qrCode-6bef225cff.js",iscroll:live800_assetsPath+"js/iscroll-05ff78699e.js","iscroll-zoom":live800_assetsPath+"js/iscroll-zoom-f201e50f56.js",catchScreen:live800_assetsPath+"js/catchScreen-3b7802a171.js",respond:live800_assetsPath+"js/respond.min.js",htmlshiv:live800_assetsPath+"js/htmlshiv.min.js",es5shimsham:live800_assetsPath+"js/es5-shim-sham.min.js",visitorInfo:live800_assetsPath+"js/visitorInfo-526cc5788f.js",visitorInfo_i:live800_assetsPath+"js/visitorInfo_i-32a4437cc2.js",visitorInfo_m:live800_assetsPath+"js/visitorInfo_m-e656f02091.js",validating:live800_assetsPath+"js/validating-1410f96771.js",selector:live800_assetsPath+"js/selector-403cc3b41e.js",jquery:live800_assetsPath+"js/jquery-dd7b4e2d4a.js",jquery_183:live800_assetsPath+"js/jquery_183.js",utility:live800_assetsPath+"js/utility-b067770153.js",json2:live800_assetsPath+"js/json2-28b9cef6b0.js",media:live800_assetsPath+"js/media-de7a45ceac.js",chatbox:live800_assetsPath+"js/chatbox-6419566bac.js",client_i:live800_assetsPath+"js/client_i-34d31a9455.js",client_i_2:live800_assetsPath+"js/client_i_2-8ad0cbb988.js",client_m:live800_assetsPath+"js/client_m-d7829eac35.js",client_style1:live800_assetsPath+"js/client_style1-d6c0da4803.js",client_style2:live800_assetsPath+"js/client_style2-002f817117.js",client_style3:live800_assetsPath+"js/client_style3-b2054692ec.js",client_style4:live800_assetsPath+"js/client_style4-0f4488d93b.js",messenger:live800_assetsPath+"js/messenger-8113cd8f16.js",localStorage:live800_assetsPath+"js/localStorage-e5190a6ad7.js",suggest:live800_assetsPath+"js/suggest-52fc9c01dd.js",select:live800_assetsPath+"js/select-be5a8ff35c.js",robot_new:live800_assetsPath+"js/robot_new-720946479e.js",robotmain:live800_assetsPath+"js/robotmain-df4092daf0.js",sweetalert:live800_assetsPath+"js/sweetalert-80d8ec78c5.js",simpleInputTip:live800_assetsPath+"js/simpleInputTip-85e22574c2.js",leaveMsgItems:live800_assetsPath+"js/leaveMsgItems-7176766243.js",configNew:live800_assetsPath+"configNew.js",external_i:live800_assetsPath+"js/external_i-2718edec96.js",external_i_2:live800_assetsPath+"js/external_style2-e7dc61e8bb.js",external_mi:live800_assetsPath+"js/external_mi-98ba63d3fb.js"},css:{normalize:live800_assetsPath+"css/normalize-8777e8898f.css",external_i:live800_assetsPath+"css/external_i-f67e7966ea.css",external_i_2:live800_assetsPath+"css/chat_inner_style2-wall-79056d5f36.css",external_mi:live800_assetsPath+"css/external_mi-63f3572b3f.css",selector:live800_assetsPath+"css/selector-4f3afc17a3.css",chatbox_i:live800_assetsPath+"css/chatbox_i-ab5dc2d05e.css",inner_style2:live800_assetsPath+"css/chat_inner_style2-e24433e365.css",survey:live800_assetsPath+"css/survey-bdb862d58a.css",survey_i:live800_assetsPath+"css/survey_i-52dee363a5.css",survey_im:live800_assetsPath+"css/survey_im-0c5ae7d213.css",survey_m:live800_assetsPath+"css/survey_m-6a52ffd990.css",visitorInfo_m:live800_assetsPath+"css/visitorInfo_m-290ab342f4.css",visitorInfo_i:live800_assetsPath+"css/visitorInfo_i-f956bd6569.css",visitorInfo:live800_assetsPath+"css/visitorInfo-40f7b3a579.css",style1:live800_assetsPath+"css/style1-dca2f8198a.css",style2:live800_assetsPath+"css/style2-ec4a8003f6.css",style3:live800_assetsPath+"css/style3-4e43129509.css",style4:live800_assetsPath+"css/style4-5dde35fe0f.css",style_m:live800_assetsPath+"css/style_m-60df716210.css",invite_i:live800_assetsPath+"css/invite_i-4ed52cb583.css",invite_mi:live800_assetsPath+"css/invite_i-4ed52cb583.css",invite_i_0:live800_assetsPath+"css/invite_i_0-0edba90b2a.css",invite_i_1:live800_assetsPath+"css/invite_i_1-f51d711922.css",invite_i_2:live800_assetsPath+"css/invite_i_2-ba0f33976a.css"}};
+
+var live800_windowColor= "";
+var live800_windowEndColor= "";
+var live800_staffService=false;
+var live800_robot=false;
+var live800_human=true;
+var live800_leave=false;
+var bVersion="webkit";
+
+(function(){
+var live800Script = document.createElement('script');
+live800Script.type = 'text/javascript';
+live800Script.src  = assetsConfig.js.external_i_2;
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(live800Script, s);
+})();

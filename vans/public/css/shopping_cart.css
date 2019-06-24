@@ -1,0 +1,100 @@
+.my_header{  width: 100%;}
+.my_footer{  width: 100%;height: 500px;
+
+}
+.my_shopping{
+    width: 100%;
+    height: 503px;
+    background-color: #f1f2ed;
+}
+.my_shopping1{
+    width: 100%;
+    height: 383px;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.my_shopping:before{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.shopping_title{
+    margin-top: 58px ;
+    text-align: center;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #2b2b2b;
+    font-weight: bold;
+}
+.shopping_title2{
+    margin-top: 125px ;
+    text-align: center;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #2b2b2b;
+    font-weight: bold;
+}
+div>h6{
+    text-align: center;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #666666;
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+}
+.buy{
+    width:126px;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+    background-color: #c9192e;
+    border: none;
+
+}
+.buy1{
+    width:126px;
+    height: 40px;
+    color: white;
+    margin-right: 22px;
+    background-color: #000000;
+    border: none;
+}
+button:hover{
+    background-color: black;
+    cursor:pointer;
+}
+.shopping_top{
+    width: 100%;
+    height: 384px;
+
+}
+.shopping_top2{
+    margin-right: 450px;
+    display: flex;
+    float: left;
+}
+.img1{
+    width: 245px;
+    height: 300px;
+}
+.img_size{
+    width: 245px;
+    height: 245px;
+    margin-top: -100px;
+}
+.title_font{
+    font-weight: bolder;
+    color: #666666;
+
+}
+
+.title_font:hover{
+    color: #c8192e;
+    text-decoration:none
+}
+.pric_color{
+    color:#c8192e ;
+    font-weight: bolder;
+}
+.love_img{
+    margin-top: 70px;
+}

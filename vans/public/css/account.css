@@ -1,0 +1,50 @@
+.account_number{
+  width: 602px;height:336px;
+  background-color: #fff;
+  margin: 0 auto;
+  border:1px solid #ddd;
+  margin-bottom: 20px;
+  margin-top: 70px
+}
+.account_number h2{
+  color:  #666666;
+  margin-top: 46px;
+  margin-left: 58px;
+  margin-bottom: 41px;
+}
+.number{
+  width: 481px;
+  height: 74px;
+  margin-left: 58px;
+  padding-left: 20px;
+}
+.account_number>button{
+  width: 505px;
+  height: 40px;
+  color: #fff;
+  margin-left: 58px;
+  margin-top: 21px;
+  background-color:#c9192e;
+  border:0px; 
+  margin-bottom: 20px; 
+}
+.account_number>button:hover{
+  background-color:#000; 
+}
+button>a{
+  color: #fff;
+  font: bolder;
+}
+button>a:hover{
+  text-decoration: none;
+}
+.account_number>a{
+  color: #7cc3eb;
+  font:bolder;
+  font-size: 17px;
+  margin-left:58px; 
+  
+}
+.account_number>a:hover{
+  text-decoration: none;
+}

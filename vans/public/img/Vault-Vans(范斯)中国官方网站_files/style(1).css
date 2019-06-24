@@ -1,0 +1,1404 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.web_body_content{
+    width: 100%;
+    background: url("https://vans.com.cn/themes/vans/cssjs/images/shoes_background.jpg");
+}
+
+.web_body_center{
+    width: 1128px;
+    margin: 0 auto;
+}
+
+.web_main_banner{
+    width: 100%;
+    height: 465px;
+    margin:  0 auto;
+    overflow-x: hidden;
+    padding-top: 25px;
+    position: relative;
+    display: block;
+}
+
+.web_videoBgFont{
+    position: absolute;
+    left: 11px;
+    bottom: 50px;
+}
+
+.web_videoBgJi{
+    position: absolute;
+    left: 440px;
+    bottom: 40px;
+    vertical-align: middle;
+}
+
+.web_main_banner img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.web_adFont{
+    width: 89%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.web_adFont .yellow{
+    width: 200px;
+    color: #333;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: 16px;
+    line-height: 14px;
+}
+
+.web_adFont .yellow_1{
+   width: 155px;
+   margin-left: 24px;
+}
+
+.web_zh_title{
+    width: 192px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.web_zh_title2{
+    width: 210px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.web_zh_title img{
+    width: 100%;
+    display: block;
+}
+.web_zh_title2 img{
+    width: 100%;
+    display: block;
+}
+
+.web_adFont .yellow i{
+    display: block;
+    font-size: 1.2rem;
+    font-style: normal;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    padding-top: 1.5%;
+    display: block;
+    height: 100%;
+    z-index: 1;
+}
+
+.web_adFont_title{
+    width: 400px;
+    font-family: "Franklin_Gothic_Book";
+    font-size: 3rem;
+    margin-left: 22px;
+    letter-spacing:0.4rem;
+    line-height: 45px;
+}
+
+.web_adFont_title img{
+    width: 100%;
+}
+
+.web_adFont_title b{
+    font-family: "frankgoth_cn_btregular","Arial Narrow Bold",Arial,sans-serif;
+}
+
+.web_adFont .yellow img{
+    width: 100%;
+}
+
+.web_adFont img{
+    width: 100%;
+}
+
+.web_adContent{
+    width: 85%;
+    font-size: 1rem;
+    padding-top: 18px;
+    line-height: 1.2rem;
+    margin: 0 auto;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+.web_adContent_n{
+    
+}
+
+.web_adContent b{
+    font-weight: bold;
+    font-family: "frankgoth_cn_btregular","Arial Narrow Bold",Arial,sans-serif;
+}
+
+.web_adContent p{
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.web_animateImg1{
+    width: 122px;
+    height: 237px;
+    background: url("../cssjs/animate1.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/pic/animate1.png*/ no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 156px;
+    transform:rotate(1deg);
+    -ms-transform:rotate(1deg); 	/* IE 9 */
+    -moz-transform:rotate(1deg); 	/* Firefox */
+    -webkit-transform:rotate(1deg); /* Safari 和 Chrome */
+    -o-transform:rotate(1deg); 	/* Opera */
+    z-index: 2 ;
+}
+
+.web_animateImg2{
+    width: 211px;
+    height: 292px;
+    background: url("../cssjs/animate2.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/pic/animate2.png*/ no-repeat;
+    position: absolute;
+    left: 78px;
+    top: 119px;
+    z-index: 1;
+}
+
+.web_animateImg3{
+    width: 221px;
+    height: 147px;
+    background: url("../cssjs/animate3.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/pic/animate3.png*/ no-repeat;
+    position: absolute;
+    left: 245px;
+    top: 199px;
+    z-index: 2;
+}
+
+.web_animateImg4{
+    width: 588px;
+    height: 426px;
+    background: url("../cssjs/animate4.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/pic/animate4.png*/ no-repeat;
+    position: absolute;
+    left: 425px;
+    top: 32px;
+    transform:rotate(1deg);
+    -ms-transform:rotate(1deg); 	/* IE 9 */
+    -moz-transform:rotate(1deg); 	/* Firefox */
+    -webkit-transform:rotate(1deg); /* Safari 和 Chrome */
+    -o-transform:rotate(1deg); 	/* Opera */
+    z-index: 3 ;
+}
+
+.web_animateImg5{
+  width: 249px;
+  height: 281px;
+  background: url("../cssjs/animate5.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/pic/animate5.png*/ no-repeat;
+    right: 0px;
+    top: 100px;
+    position: absolute;
+    transform:rotate(3deg);
+    -ms-transform:rotate(3deg); 	/* IE 9 */
+    -moz-transform:rotate(2deg); 	/* Firefox */
+    -webkit-transform:rotate(3deg); /* Safari 和 Chrome */
+    -o-transform:rotate(3deg); 	/* Opera */
+    z-index: 2 ;
+}
+
+.web_animateImg6{
+    width: 320px;
+    height: auto;
+    left: 75px;
+    top: 27px;
+    position: absolute;
+    z-index: 2 ;
+    font-family: "frankgoth_cn_btregular", "Arial Narrow Bold", Arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    letter-spacing:0.3rem;
+}
+
+.web_animateImg6 img{
+    width: 100%;
+}
+
+.web_animateImg7{
+    width: 190px;
+    height: auto;
+    left: 75px;
+    top: 27px;
+    position: absolute;
+    z-index: 2;
+    font-family: "frankgoth_cn_btregular", "Arial Narrow Bold", Arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+}
+
+.web_animateImg7 img{
+    width: 100%;
+}
+
+.web_animateImg8{
+    width: 282px;
+    height: auto;
+    left: 75px;
+    top: 27px;
+    position: absolute;
+    z-index: 2;
+    font-family: "frankgoth_cn_btregular", "Arial Narrow Bold", Arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+}
+
+.web_animateImg8 img{
+    width: 100%;
+}
+
+.web_product{
+    padding: 0 160px 0 100px;
+}
+
+.web_product_zh{
+    padding: 0 70px 0 100px;
+}
+
+.web_product ul{
+   width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.web_product li{
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+}
+
+.web_product_2 li{
+    width: 33.3%;
+}
+
+.web_product li span.img{
+    width: 232px;
+    height: 160px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+
+.web_product li span.img img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.web_product li span.name{
+    width:100%;
+    display: block;
+    padding-top: 25px;
+    font-family: "frankgoth_cn_btregular","Arial Narrow Bold",Arial,sans-serif;
+
+    font-style: normal;
+    color: #2B2B2B;
+    font-size: 0.80rem;
+}
+
+.web_product li span.price{
+    width:100%;
+    display: block;
+    padding-top: 5px;
+    font-size: .9rem;
+    color: #cf3244;
+}
+
+.web_video{
+    width: 100%;
+    height: 535px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.web_videoPlayer{
+    width: 710px;
+    min-height: 400px;
+    background-color: #b5b5b5;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    margin-left: -355px;
+    font-size: 0px;
+}
+
+.web_videoPlayer img{
+    width: 100%;
+    display: block;
+}
+
+.web_videoPlayer .button{
+    width: 53px;
+    height: 53px;
+    background: url("../cssjs/shoe_playerBtn.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/shoe_playerBtn.png*/ no-repeat 0 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -24px 0 0 -24px;
+    cursor: pointer;
+    display: block;
+}
+
+.web_switch{
+    padding: 0 35px;
+    padding-top: 5px;
+}
+
+.web_switch_border{
+     border: 1px solid #ccc;
+     box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+}
+
+.web_switch_content{
+     width: 100%;
+     height: 547px;
+     position: relative;
+    overflow: hidden;
+    background: url("../cssjs/photoBg.jpg")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/photoBg.jpg*/;
+}
+
+.web_switch_leftButton{
+     width: 22px;
+     height: 49px;
+     background: url("../cssjs/shoe_leftButton.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/shoe_leftButton.png*/ no-repeat;
+     left: 10px;
+     top: 50%;
+     margin-top: -24px;
+     position: absolute;
+     cursor: pointer;
+     z-index: 2;
+ }
+
+.web_switch_rightButton{
+    width: 22px;
+    height: 49px;
+    background: url("../cssjs/shoe_rightButton.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/shoe_rightButton.png*/ no-repeat;
+    right: 10px;
+    top: 50%;
+    margin-top: -24px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.web_switch_content ul{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.web_switch_content ul li{
+    width: 100%;
+    height: 547px;
+    float: left;
+    position: relative;
+}
+
+.web_switch_content ul li .web_switch_font{
+    position: absolute;
+    font-size: 0.95rem;
+    text-align: center;
+}
+.web_switch_content ul li .web_switch_font span{
+    display: block;
+}
+.web_switch_content ul li .web_switch_font span.h1{
+	font-size: 1.4rem;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.web_switch_content ul li .web_switch_font p{
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.web_switch_content ul li .web_switch_font1{
+    width: 350px;
+    right: 96px;
+    top: 210px;
+}
+
+.web_switch_content ul li .web_switch_font2{
+    width: 350px;
+    right: 118px;
+    top: 145px;
+}
+
+.web_switch_content ul li .web_switch_font3{
+    right: 100px;
+    top: 160px;
+    width: 360px;
+}
+
+.web_switch_content ul li .web_switch_font4{
+    right: 100px;
+    top: 208px;
+    width: 360px;
+}
+
+.web_switch_content ul li .logo{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.web_switch_content ul li .web_switch_font2 .logo img{
+    width: 119px !important;
+}
+
+.web_switch_content ul li .web_switch_font3 .logo img{
+    width: 147px !important;
+}
+
+
+
+.web_switch_content ul li img{
+    width: 100%;
+}
+
+.web_bonusPhotos{
+    width: 100%;
+    display: block;
+}
+
+.web_bonusPhotos .web_bonusPhotos_title{
+    width: 100%;
+    height: 90px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 90px;
+    /* font-family: "frankgoth_cn_btregular","Arial Narrow Bold",Arial,sans-serif; */
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.web_bonusPhotos_content{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    overflow: hidden;
+    height: 189px !important;
+}
+
+.web_bonusPhotos_left{
+    width: 23px;
+    height: 45px;
+    background: url("../cssjs/photoLeftButton.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/photoLeftButton.png*/ no-repeat;
+    cursor: pointer;
+    left: 0px;
+    top: 50%;
+    margin-top: -22.5px;
+    position: absolute;
+}
+
+.web_bonusPhotos_right{
+    width: 23px;
+    height: 45px;
+    background: url("../cssjs/photoRightButton.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/photoRightButton.png*/ no-repeat;
+    cursor: pointer;
+    right: 0px;
+    top: 50%;
+    margin-top: -22.5px;
+    position: absolute;
+}
+
+.web_bonusPhotos_content ul{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: auto;
+}
+
+.web_bonusPhotos_content ul li{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.web_bonusPhotos_content ul li img{
+    width: 100%;
+    display: block;
+}
+
+.web_main_banner2{
+    display: none;
+}
+
+.private_Clear_Fix{
+    height: 1%;
+    display:block;
+}
+.private_Clear_Fix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.pc_swiper{
+    display: block;
+}
+
+.wap_swiper{
+    display: none;
+}
+
+.pc_photo{
+    display: block;
+}
+
+.wap_photo{
+    display: none;
+}
+
+.web_brand{
+    font-size: 2.3rem;
+    text-align: center;
+    position: absolute;
+    left: 7%;
+    top: 30px;
+    z-index: 2;
+    text-align: center;
+    width: 90%;
+    letter-spacing: 0.1rem;
+    background: url("../cssjs/yellowBg2.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/yellowBg2.png*/ no-repeat center bottom;
+    text-indent: 3px;
+}
+
+.web_moreHidden{
+    word-break:break-all;
+    display:-webkit-box;
+    display:-o-box;
+    display:-moz-box;
+    display:box;
+    -webkit-line-clamp:3;
+    -moz-line-clamp:3;
+    -o-line-clamp:3;
+    -webkit-box-orient:vertical;
+    -moz-box-orient:vertical;
+    -o-box-orient:vertical;
+    overflow:hidden;
+}
+
+
+
+.web_brand2{
+    font-family: "frankgoth_cn_btregular","Arial Narrow",Arial,sans-serif;
+    font-size: 2.6rem;
+    text-align: center;
+    position: absolute;
+    left: 4%;
+    top: 33px;
+    z-index: 2;
+    text-align: center;
+    width: 90%;
+    background: url("../cssjs/yellowBg2.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/yellowBg2.png*/ no-repeat center bottom;
+    background-size: auto 70%;
+    letter-spacing: 0.1rem;
+    text-indent: 2%;
+}
+
+.web_moreButton{
+    display: none;
+}
+
+.buyButton{
+    width:100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.buyButton a{
+    width: 94px;
+    height: 20px;
+    background-color: #d51920;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    line-height: 20px;
+    margin: 0 auto;
+    position: absolute;
+    font-style: normal;
+    left: 50%;
+    bottom: -24px;
+    margin-left: -47.5px;
+    display: none;
+    cursor: pointer;
+}
+
+.web_fontWeight{
+   font-weight: bold !important;
+}
+
+.popusWindow{
+    width: 625px;
+    height: auto;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -270px 0 0 -312.5px;
+    z-index: 9999;
+}
+
+.popusWindow_padding{
+    padding: 0;
+}
+
+.popusWindow_padding ol {
+    padding: 40px;
+    margin: 0;
+}
+
+.popusWindow_padding > ol > li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.popusWindow_padding > ol > li .marker_img_container {
+    padding-right: 10px;
+    min-width: 37px;
+}
+
+.popusWindow_padding  > ol > li > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.popusWindow_padding  > ol > li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.popusWindow_padding > ol > li .marker_title, .popusWindow_padding > ol > li .marker_title-2 {
+    font-size: 1.6em;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.popusWindow_padding > ol > li  p{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 1.0rem !important;
+    text-rendering: optimizeLegibility;
+}
+
+.popusWindow_padding > ol > li .marker_link_directions, .popusWindow_padding > ol > li .marker_link_directions:hover {
+    color: #559dc5;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    padding-left: 15px;
+}
+
+.popusWindow_padding > ol > li .marker_link_directions:before {
+    content: url("../cssjs/direction_icon.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/direction_icon.png*/;
+    margin-right: 2px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.mesk_block{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    opacity: 0.5;
+    z-index: 9998;
+    left: 0px;
+    top: 0px;
+}
+
+.web_zwFontStyle{
+        font-size: 2rem;
+}
+
+
+.sharp_block{
+    padding-bottom: 40px;
+}
+
+.sharp_block .header{
+	margin-top: 0px !important;
+}
+
+.sharp_block .row{
+   max-width: 100%;
+}
+
+.sharp_block .row .column,.sharp_block .row  .columns{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+
+.sharp_header{
+    margin-top: 1em; 
+    font-weight: bold; 
+    font-size: 1.4em;
+}
+
+.stButton{
+    text-decoration:none;
+    color:#000000;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.stLarge {
+    background-size: cover;
+    background: url("../cssjs/facebook_333.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/facebook_333.png*/;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    position: relative;
+}
+
+@media screen and (max-width: 900px) {
+   
+.sharp_block .row .column, .sharp_block .row  .columns{
+    padding-left: .9375em;
+    padding-right: .9375em;
+}
+
+    .web_zh_title{
+       width: 128px;
+       margin-left: 5px;
+       margin-top: 5px;
+    }
+    .sharp_block .row{
+        max-width: 65em;
+    }
+    .sharp_block .header{
+    	font-size: 1.1rem;
+    }
+    .web_zh_title2{
+       width: 148px;
+       margin-left: 10px;
+       margin-top: 5px;
+    }
+    .web_moreButton{
+        width: 100%;
+        text-align: right;
+        display: block;
+    }
+    .web_product li span.name{
+        padding-top: 15px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        width: 100%;
+        height: 50px;
+        font-size: 1.45rem;
+        text-align: center;
+        line-height: 50px;
+        font-family: "frankgoth_cn_btregular","Arial Narrow Bold",Arial,sans-serif;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+    .web_videoBgFont{
+        display: none;
+    }
+    .web_bonusPhotos_content{
+        height: auto !important;
+    }
+    .web_moreButton i{
+        padding: 2px 20px 2px 8px;
+        text-align: center;
+        color: #fff;
+        display: inline-block;
+        cursor: pointer;
+        font-family: "Franklin_Gothic_Book","Arial Narrow Bold",Arial,sans-serif;
+        font-size: 0.9rem;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-style: normal;
+        color: #589BC6;
+    }
+
+    .web_moreButton i.active{
+
+    }
+    .web_body_center{
+        width: 100%;
+        overflow: hidden;
+    }
+    .web_main_banner2 .block{
+        width: 100%;
+        display: block;
+    }
+    .web_main_banner{
+        display: none;
+    }
+    .web_main_banner2{
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top:1.5rem;
+    }
+    .web_main_banner2  .web_animateImg1_1{
+        left: -1%;
+        top: 25%;
+        width: 25.90625%;
+        position: absolute;
+        z-index: 1;
+        transform:rotate(2deg);
+        -ms-transform:rotate(2deg); 	/* IE 9 */
+        -moz-transform:rotate(2deg); 	/* Firefox */
+        -webkit-transform:rotate(2deg); /* Safari 和 Chrome */
+        -o-transform:rotate(2deg); 	/* Opera */
+    }
+    .web_main_banner2  .web_animateImg1_1 img{
+        width: 100%;
+    }
+    .web_main_banner2  .web_animateImg2_2{
+        left: 24.5%;
+        width: 68.5%;
+        bottom: 1%;
+        position: absolute;
+        z-index: 2;
+        transform:rotate(1.5deg);
+        -ms-transform:rotate(1.5deg); 	/* IE 9 */
+        -moz-transform:rotate(1.5deg); 	/* Firefox */
+        -webkit-transform:rotate(1.5deg); /* Safari 和 Chrome */
+        -o-transform:rotate(1.5deg); 	/* Opera */
+    }
+    .web_main_banner2  .web_animateImg2_2 img{
+        width: 100%;
+    }
+    .web_animateImg3_3{
+        width: 29%;
+        position: absolute;
+        right: 2.5%;
+        top: 2%;
+        z-index: 1;
+        transform:rotate(2deg);
+        -ms-transform:rotate(2deg); 	/* IE 9 */
+        -moz-transform:rotate(2deg); 	/* Firefox */
+        -webkit-transform:rotate(2deg); /* Safari 和 Chrome */
+        -o-transform:rotate(2deg); 	/* Opera */
+    }
+    .web_animateImg3_3 img{
+        width: 100%;
+    }
+    .web_animateImg4_4{
+        width: 49%;
+        top: 0%;
+        left: 4%;
+        position: absolute;
+        z-index: 2 ;
+        font-family: "frankgoth_cn_btregular", "Arial Narrow Bold", Arial, sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: 0.3rem;
+    }
+
+     .web_animateImg4_4 img{
+        width: 100%;
+     }
+
+      .web_animateImg7_7{
+        width: 35%;
+        top: -4%;
+        left: 4%;
+        position: absolute;
+        z-index: 2 ;
+        font-family: "frankgoth_cn_btregular", "Arial Narrow Bold", Arial, sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: 0.3rem;
+    }
+
+     .web_animateImg7_7 img{
+        width: 100%;
+     }
+
+     .web_animateImg8_8{
+        width: 49%;
+        top: -4%;
+        left: 4%;
+        position: absolute;
+        z-index: 2 ;
+        font-family: "frankgoth_cn_btregular", "Arial Narrow Bold", Arial, sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: 0.3rem;
+    }
+
+     .web_animateImg8_8 img{
+        width: 100%;
+     }
+
+    .web_adFont{
+        width: 95%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .web_product{
+        padding: 0 5%;
+    }
+
+    .web_adContent {
+        width: 95%;
+        font-size: 0.88rem;
+        padding-left: 2.5%;
+        padding-top: 0.8rem;
+    }
+    .web_adContent p{
+        display: inline;
+        white-space: normal;
+    }
+
+    .web_product li span.img{
+        width: 80%;
+        height: 95px;
+    }
+
+    .web_product li span.img img{
+        width: 100%;
+    }
+
+    .web_product li{
+        height: 185px;
+    }
+
+    .web_product li span.price{
+        padding-top: 0px;
+        line-height: 14px;
+    }
+
+    .web_product .buyButton a{
+        display: block;
+        bottom: -80px;
+    }
+
+    .web_product_2 li{
+        width: 50%;
+    }
+
+    .web_video{
+        height: auto;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        background: url("../cssjs/fontBg.png")/*tpa=http://ultrarangepro.dev.gzshuomai.com/wp-content/themes/vans-gnrl/cssjs/fontBg.png*/ no-repeat left 102%;
+        background-size: 57%;
+    }
+
+    .web_videoBg{
+        display: none;
+    }
+
+    .web_videoPlayer{
+        width: 100%;
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+        margin-left: 0px;
+        background-color: inherit;
+        min-height: inherit;
+    }
+
+    .web_switch{
+        padding:0 2%;
+    }
+
+    .web_switch_leftButton{
+        left: 0px;
+    }
+
+    .web_switch_rightButton{
+        right: 0px;
+    }
+
+    .pc_swiper{
+        display: none;
+    }
+
+    .wap_swiper{
+        display: block;
+    }
+
+    .web_switch_content{
+        height:auto;
+    }
+
+    .web_switch_content ul li{
+        height: auto;
+    }
+
+    .pc_photo{
+        display: none;
+    }
+
+    .wap_photo{
+        display: block;
+    }
+    .web_bonusPhotos_content ul li{
+        float: left;
+        width: 50%;
+        height: auto;
+    }
+
+    .web_switch_content ul li .web_switch_font1_1{
+        width: 100%;
+        text-align: center;
+        bottom: 6%;
+        left: 0rem;
+    }
+
+    .web_switch_content ul li .web_switch_font2_2{
+        width: 100%;
+        text-align: center;
+        bottom: 6%;
+        left:0rem;
+    }
+
+    .web_switch_content ul li .web_switch_font3_3{
+        width: 100%;
+        text-align: center;
+        bottom: 6%;
+        left:0rem;
+    }
+
+    .web_switch_content ul li .web_switch_font4_4{
+        width: 100%;
+        text-align: center;
+        bottom: 6%;
+        left:0rem;
+    }
+
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        width: 180px;
+        left: 9%;
+        bottom: 210%;
+        position: absolute;
+    }
+
+    .web_switch_content ul li .web_switch_font3_3 .logo{
+        width: 147px;
+        left: 10%;
+        bottom: 185%;
+        position: absolute;
+    }
+
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 100% !important;
+    }
+
+    .web_switch_content ul li .web_switch_font3_3 .logo img{
+        width: 100% !important;
+    }
+
+    .web_adFont_title{
+        width:225px; 
+        font-size: 2.4rem;
+        margin-left:8px;
+        line-height:35px;
+    }
+
+    .web_switch_content ul li .web_switch_font2_2  .logo{
+        display: none;
+    }
+    .web_switch_content ul li .web_switch_font3_3 .logo{
+        display: none;
+    }
+    .web_adFont .yellow{
+        margin-left: 0px;
+    }
+    .web_switch_content ul li .web_switch_font p{
+    	white-space: nowrap;
+    	font-size: 0.7rem;
+    }
+    .web_adFont .yellow_1{
+        width: 102px;
+        margin-left: 10px;
+    }
+    .web_adContent_n{
+      word-break: keep-all;
+      word-wrap: break-word;
+      white-space: normal;
+    }
+    .web_adContent_norlmol{
+      word-break: normal;
+      word-wrap: normal;
+      white-space: normal;
+    }
+
+    .popusWindow {
+        width: 90%;
+        height: auto;
+        background: #fff;
+        position: fixed;
+        left: 50%;
+        top: 20%;
+        margin: -25% 0 0 -45%;
+        z-index: 9999;
+    }
+
+    .popusWindow_padding ol {
+        padding: 5%;
+        margin: 0;
+    }
+
+    .popusWindow_padding > ol > li .marker_title, .popusWindow_padding > ol > li .marker_title-2 {
+        font-size: 1.0em;
+        margin: 0;
+        margin-bottom: 0.8rem;
+    }
+
+    .popusWindow_padding > ol > li p {
+        font-size: 0.8rem;
+        font-weight: normal;
+        line-height: 1.2;
+        margin-bottom: 0.8rem !important;
+        text-rendering: optimizeLegibility;
+     }
+
+     .popusWindow_padding > ol > li .marker_img_container{
+         min-width:inherit;
+         width: 27px;
+     }
+
+     .popusWindow_padding > ol > li .marker_img_container img{
+         width:100%;
+     }
+
+     .popusWindow_padding > ol > li .marker_link_directions, .popusWindow_padding > ol > li .marker_link_directions:hover{
+         font-size: 0.8rem;
+     }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .web_animateImg4_4{
+        font-size: 2.6rem;
+        line-height: 2.6rem;
+    }
+    .web_adFont_title{
+        font-size: 2.1rem;
+    }
+    .web_brand2{
+        font-size: 2.4rem;
+        top: 28px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        font-size: 2.4rem;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        bottom: 180%;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 100% !important;
+    }
+    .web_adFont .yellow_1{
+        width: 102px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .web_animateImg4_4{
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+    .web_adFont_title{
+        font-size: 2.0rem;
+    }
+    .web_adFont .yellow{
+        width: 150px;
+    }
+
+    .web_adFont .yellow i{
+        font-size: 0.95rem;
+    }
+    .web_brand2{
+        font-size: 2.0rem;
+        top: 24px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        font-size: 2.0rem;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        bottom: 130%;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 100% !important;
+    }
+    .web_adFont .yellow_1{
+        width: 102px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .web_animateImg4_4{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+    .web_adFont_title{
+        font-size: 1.9rem;
+    }
+    .web_adFont .yellow{
+        width: 142px;
+    }
+    .web_adFont .yellow i{
+        font-size: 0.92rem;
+    }
+    .web_brand2{
+        font-size: 1.9rem;
+        top: 17px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        font-size: 1.9rem;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        bottom: 120%;
+        width: 130px;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 100% !important;
+    }
+    .web_adFont .yellow_1{
+        width: 102px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .web_animateImg4_4{
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .web_adFont_title{
+        font-size: 1.8rem;
+    }
+    .web_brand2{
+        font-size: 1.5rem;
+        top: 13px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        font-size: 1.5rem;
+    }
+    .web_switch_content ul li .web_switch_font span.h1{
+        font-size: 1.2rem;
+    }
+    .web_switch_content ul li .web_switch_font span{
+        font-size: 0.6rem;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        width: 100px;
+        bottom: 90%;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 100% !important;
+    }
+    .web_adFont .yellow_1{
+        width: 102px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .web_animateImg4_4{
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+    .web_adFont_title{
+        font-size: 1.7rem;
+    }
+    .web_adFont .yellow{
+        width: 132px;
+    }
+    .web_adFont .yellow i{
+        font-size: 0.83rem;
+    }
+    .web_adFont .yellow_1{
+        width: 102px;
+        margin-left: 10px;
+    }
+    .web_brand2{
+        font-size: 1.3rem;
+        top: 13px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        font-size: 1.3rem;
+    }
+    .web_switch_content ul li .web_switch_font span.h1{
+        font-size: 1.2rem;
+        padding-bottom: 0px;
+    }
+    .web_switch_content ul li .web_switch_font1_1{
+        bottom: 6%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        bottom: 80%;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 80px !important;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        left: 4.5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .web_animateImg4_4{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .web_adFont_title{
+        font-size: 1.6rem;
+    }
+    .web_brand2{
+        font-size: 1.2rem;
+        top: 13px;
+    }
+    .web_bonusPhotos .web_bonusPhotos_title{
+        font-size: 1.2rem;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo{
+        bottom: 60%;
+    }
+    .web_switch_content ul li .web_switch_font2_2 .logo img{
+        width: 100px !important;
+    }
+}

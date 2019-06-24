@@ -1,11 +1,8 @@
-.my_header{  width: 100%;}
-.my_footer{  width: 100%;height: 500px;}
 .login_form{
     width: 602px;height:461px;
     background-color: #fff;
     margin: 0 auto;
     border:1px solid #ddd;
-    margin-bottom: 20px;
 }
 .login_top{
     display: flex;
@@ -32,7 +29,7 @@ h2:active{
 .input_style{
     width:458px;
     height: 74px;
-    color: #000000;
+    color: #ddd;
     font-size: 16px;
     padding-left: 22px;
     margin-bottom: 22px;
@@ -44,7 +41,7 @@ h2:active{
     margin-bottom: 22px;
     margin-right: 14px;
     padding-left: 22px;
-    color: #000000;
+    color: #ddd;
     float: left;
 }
 .span_font{
@@ -58,10 +55,6 @@ h2:active{
     margin-left: 10px;
     float: left;
 
-}
-.span_font{
-    cursor: pointer;
-    border: none;
 }
 .hide{
     display: none;
@@ -96,7 +89,6 @@ h2:active{
 }
 button:hover{
     background-color: black;
-    cursor: pointer;
 }
 .login2{
     width:151px;

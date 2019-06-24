@@ -1,0 +1,96 @@
+body{
+    background-color:#f1f2ed; 
+}
+.container{
+    float: left;
+}
+.border{
+    width: 1300px;
+    border-right: 1px solid #ddd;
+}
+#main{
+    width: 987px;
+    margin-left:100px;
+    
+}
+#banner{
+    width: 987px;
+    height: 454px;
+    background-color: #ddd;
+    padding-left:160px; 
+    position: relative;
+   overflow: hidden;
+}
+#ul-images{
+    list-style: none;
+}
+#ul-images.transition{
+    transition: all .5s linear;
+}
+#ul-images>li{
+    width: 987px;
+    float: left;
+}
+#ul-images img{
+    width: 806px;
+}
+.radius{
+    margin-top: 57px;
+    margin-left: 518px;
+}
+#ul-idx>li{
+    float: left;
+    width: 12px;height: 12px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+#ul-idx>li.active{
+    background-color: blue;
+}
+ #btn-left,#btn-right{
+    position: absolute;
+    cursor: pointer;
+} 
+#btn-left{
+     margin-left: -30px; 
+     margin-top: -2px;
+}
+#btn-right{
+    margin-left: 100px;
+    margin-top: -2px;
+}
+
+.about{
+    margin-left: 100px;
+}
+.paragraph>span{
+    display: inline-block;
+    width: 1147px;
+    height: 48px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.paragraph>h2{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.iconAll{
+    margin-left: 100px;
+}
+.icon>li{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top:15px;
+}
+.RightTitle{
+    width: 260px;
+    height: 500px;
+}
+.name{
+    width: 260px;    
+}
+
+

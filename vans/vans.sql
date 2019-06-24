@@ -130,8 +130,8 @@ INSERT INTO vans_laptop VALUES(30,1,"ERA男女款帆布鞋",495,"灰色/蓝色",
 
 CREATE TABLE vans_laptop_pic(
   pid INT PRIMARY KEY AUTO_INCREMENT,
-  laptop_id INT,              #笔记本电脑编号
-  pic VARCHAR(128)            #图片路径 
+  laptop_id INT,      
+  pic VARCHAR(128)           
 );
 INSERT INTO vans_laptop_pic VALUES(NULL, 1, 'img/manpic/1.jpg');
 INSERT INTO vans_laptop_pic VALUES(NULL, 2, 'img/manpic/2.jpg');
