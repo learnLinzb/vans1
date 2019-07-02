@@ -1,0 +1,36 @@
+.center{
+  position: absolute;
+  z-index: 20;
+  margin-top: -130px;
+  margin-left: 40px;
+}
+.center>span{
+  color: #fff;
+  font-weight: bold
+}
+.gb{
+  width: 238px;
+  height: 238px;
+  background-color: rgba(255,0,0);
+  position: absolute;
+  margin-top: -242px;
+  z-index: 10;
+  opacity:0;
+}
+ .gb:hover{
+  opacity:.5
+} 
+.gb>span:first-child{
+  position: absolute;
+  margin-top:50px;
+  margin-left: 100px; 
+  color: #fff;
+  font-weight:bold; 
+}
+.gb>span:last-child{
+  position: absolute;
+  margin-top:165px;
+  margin-left: 83px; 
+  color: #fff;
+  font-weight:bold; 
+}
