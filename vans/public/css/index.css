@@ -1,12 +1,201 @@
-.active{
-    display: flex;
-    width: 2900px;
+ #banner{
+    width: 1423px;
+    height: 600px;
+    position: relative;
+    overflow: hidden; 
+    margin-top: 10px;
+   
+} 
+#ul-images{
+    list-style: none;
+    display: flex; 
+    
 }
-.active>li>img{
-    width: 432px;
-    height: 432px;
+#ul-images.transition{
+    transition: all .5s linear;
 }
-.active1{
-    display: flex;
-    width: 1450px;
+#ul-images>li{
+    padding: 12px;
+}
+/* 动画放大 */
+.FirstImg{
+    width: 464px;
+    height: 464px;
+    transition: 1s
+}
+.FirstImg:hover{
+    transform: scale(1.1)
+}
+.IndexImgWidth{
+    width: 464px;
+    height: 464px;
+    overflow: hidden;
+}
+button{
+    width: 180px;
+    height: 48px;
+    background-color: black;
+    border: 0px;
+
+}
+button>a{
+    color: #fff
+}
+button>a:hover{
+    text-decoration: none;
+}
+.title{
+    margin-left: 70px;
+}
+.btn{
+    margin-left: 130px;
+    margin-top:30px;
+}
+.btn1{
+    margin-left: 85px;
+}
+.btn2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.btn4{
+    margin-top: 32px;
+    margin-left: 100px;
+}
+.title1{
+    margin-left: 40px;
+}
+.title1 h2:last-child{
+    margin-left: 120px;
+}
+
+.title2{
+    margin-left: 120px;
+}
+.title2>button{
+    margin-left: 10px;
+}
+.title3{
+    margin-left: 130px;
+}
+.title3 h2:last-child{
+    margin-left: 20px;
+}
+.title4{
+    margin-left: 40px;
+}
+.title4>button{
+    margin-left: 90px;  
+}
+.title5{
+    margin-left: 133px;
+}
+.title5 h2:last-child{
+    margin-left: -50px;
+}
+#btn-right{
+    position: absolute;
+    margin-top:-380px;
+    margin-left: 1360px;
+}
+#btn-left{
+    position: absolute;
+    margin-top:210px;
+}
+#ThreeImg{
+    width: 1423px;
+    position: relative;
+}
+.ul-images1{
+    list-style: none;
+    display: flex; 
+    
+}
+.ul-images1>li{
+    padding: 12px;
+}
+.MinImg{
+    width:456px;
+    height: 278px;
+    transition: 1s;
+}
+.MinImg:hover{
+    transform: scale(1.1)
+}
+.MinDivWidth{
+    width: 456px;
+    height: 278px;
+    overflow: hidden;
+}
+.fonts1,.fonts2,.fonts{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 133px;
+}
+.FontColor{
+    color: #fff;
+}
+.fonts1>h1{
+    margin-left: 16px;
+}
+.fonts1>h3{
+    margin-left: 70px;
+}
+.fonts2>h3{
+    margin-left: 50px;
+}
+.fonts>h3{
+    margin-left: 27px;
+}
+#IndexBottom{
+    width:1423px;
+    background-color: #F1F2ED;
+    margin-top:20px;
+    display: table;
+    clear: both;
+    content: "";
+}
+#IndexBottom>h1{
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing:5px;/*设置字与字之间的间距*/
+}
+.AllImg{
+    width: 708px;
+    height: 400px;
+}
+#ul-images2{
+    width:1423px;
+    list-style: none;
+    display: flex; 
+}
+/* #ul-images2>li{
+    padding-right: 10px;
+} */
+.text{
+    display: block;
+    text-align: center;
+    font: bold 18px/30px "Franklin-Demi","冬青黑体","microsoft yahei";
+    padding: 15px 0 10px;
+    color: #000;
+}
+.p{
+    display: block;
+    height: 70px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.text:hover{
+    background-color: #000;
+    color:#fff;
+}
+.bgcolor:hover{
+    background-color: #000;
+    color:#fff;
+}
+.bgcolor>span:hover{
+    color: #fff;
 }
