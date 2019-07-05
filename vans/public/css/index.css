@@ -154,30 +154,39 @@ button>a:hover{
     display: table;
     clear: both;
     content: "";
+    position:relative;  
 }
 #IndexBottom>h1{
     text-align: center;
     margin-top: 40px;
     letter-spacing:5px;/*设置字与字之间的间距*/
+    margin-bottom: 30px;
+
 }
 .AllImg{
     width: 708px;
     height: 400px;
+    display: block;
 }
 #ul-images2{
-    width:1423px;
+    width:1443px;
     list-style: none;
     display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-between;
+    
+    
 }
-/* #ul-images2>li{
+ #ul-images2>li{
     padding-right: 10px;
-} */
+} 
 .text{
     display: block;
     text-align: center;
     font: bold 18px/30px "Franklin-Demi","冬青黑体","microsoft yahei";
     padding: 15px 0 10px;
     color: #000;
+    transition:1s linear;
 }
 .p{
     display: block;
@@ -186,16 +195,34 @@ button>a:hover{
     font-size: 16px;
     color: #000;
     line-height: 1.6;
+    transition: 1s linear;
 }
+/* .bgcolor>a:hover{
+    text-decoration: none;
+    background: #000;
+    
+} */
+.bgcolor a{
+    display: block;
+    border:  transparent;
+    box-sizing: border-box;
+    
+}
+.bgcolor{
+    background-color: #fff;
+    transition: 2s linear;} 
+/* .spanfont:hover{
+    color: #fff
+} */
+.bgcolor:hover .spanfont{
+    text-decoration: none;
+    background: #000;
 
-.text:hover{
-    background-color: #000;
-    color:#fff;
+    
+    
 }
-.bgcolor:hover{
-    background-color: #000;
-    color:#fff;
-}
-.bgcolor>span:hover{
+.bgcolor:hover .spanfont .text,
+.bgcolor:hover .spanfont .p{
     color: #fff;
+    
 }
